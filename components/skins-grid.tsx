@@ -6,7 +6,14 @@ import Image from "next/image";
 import { Search, Filter, Sparkles } from "lucide-react";
 import Link from "next/link";
 
-const tiers = ["All", "Exclusive", "Ultra", "Premium", "Deluxe", "Select"] as const;
+const tiers = [
+  "All",
+  "Exclusive",
+  "Ultra",
+  "Premium",
+  "Deluxe",
+  "Select",
+] as const;
 
 export function SkinsGrid() {
   const [selectedTier, setSelectedTier] = useState<string>("All");
@@ -16,8 +23,10 @@ export function SkinsGrid() {
   const filteredSkins = useMemo(() => {
     return allSkins.filter((skin) => {
       const matchesTier = selectedTier === "All" || skin.tier === selectedTier;
-      const matchesCollection = selectedCollection === "All" || skin.collection === selectedCollection;
-      const matchesSearch = skin.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      const matchesCollection =
+        selectedCollection === "All" || skin.collection === selectedCollection;
+      const matchesSearch =
+        skin.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
         skin.weaponName.toLowerCase().includes(searchQuery.toLowerCase()) ||
         skin.collection.toLowerCase().includes(searchQuery.toLowerCase());
       return matchesTier && matchesCollection && matchesSearch;
@@ -28,7 +37,7 @@ export function SkinsGrid() {
     if (selectedCollection !== "All") {
       return { [selectedCollection]: filteredSkins };
     }
-    
+
     const groups: Record<string, Skin[]> = {};
     filteredSkins.forEach((skin) => {
       if (!groups[skin.collection]) {
@@ -60,7 +69,10 @@ export function SkinsGrid() {
           </div>
           <div className="flex flex-wrap gap-2">
             {tiers.map((tier) => {
-              const tierInfo = tier !== "All" ? skinTiers[tier as keyof typeof skinTiers] : null;
+              const tierInfo =
+                tier !== "All"
+                  ? skinTiers[tier as keyof typeof skinTiers]
+                  : null;
               return (
                 <button
                   key={tier}
@@ -102,7 +114,9 @@ export function SkinsGrid() {
             All Collections
           </button>
           {collections.map((collection) => {
-            const count = allSkins.filter(s => s.collection === collection).length;
+            const count = allSkins.filter(
+              (s) => s.collection === collection,
+            ).length;
             if (count === 0) return null;
             return (
               <button
@@ -130,7 +144,9 @@ export function SkinsGrid() {
         return (
           <div key={collection} className="mb-12">
             <div className="mb-6 flex items-center gap-3">
-              <h3 className="text-xl font-bold text-foreground">{collection}</h3>
+              <h3 className="text-xl font-bold text-foreground">
+                {collection}
+              </h3>
               <span className="rounded-full bg-primary/20 px-3 py-1 text-xs font-medium text-primary">
                 {skins.length} {skins.length === 1 ? "skin" : "skins"}
               </span>
@@ -149,7 +165,9 @@ export function SkinsGrid() {
           <div className="mb-4 rounded-full bg-secondary p-4">
             <Search className="h-8 w-8 text-muted-foreground" />
           </div>
-          <h3 className="mb-2 text-lg font-semibold text-foreground">No skins found</h3>
+          <h3 className="mb-2 text-lg font-semibold text-foreground">
+            No skins found
+          </h3>
           <p className="text-sm text-muted-foreground">
             Try adjusting your filters or search query
           </p>
@@ -180,10 +198,11 @@ function SkinGridCard({ skin }: { skin: Skin }) {
           <Image
             src={skin.image}
             alt={skin.name}
-            fill
-            className="object-contain p-3 transition-transform duration-300 group-hover:scale-110"
-            sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"
+            width={110}
+            height={110}
+            className="h-full w-full object-contain p-3 transition-transform duration-300 group-hover:scale-110"
             onError={() => setImgError(true)}
+            loading="lazy"
           />
         ) : (
           <div className="flex h-full w-full items-center justify-center">
@@ -202,11 +221,10 @@ function SkinGridCard({ skin }: { skin: Skin }) {
           {skin.name}
         </h4>
         <div className="mt-auto flex items-center justify-between">
-          <span className="text-xs text-muted-foreground">{skin.weaponName}</span>
-          <span
-            className="text-xs font-medium"
-            style={{ color: tier.color }}
-          >
+          <span className="text-xs text-muted-foreground">
+            {skin.weaponName}
+          </span>
+          <span className="text-xs font-medium" style={{ color: tier.color }}>
             {skin.tier}
           </span>
         </div>

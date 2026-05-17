@@ -30,10 +30,10 @@ export const weapons: Weapon[] = [
     image: "https://media.valorant-api.com/weapons/29a0cfab-485b-f5d5-779a-b59f85e204a8/displayicon.png",
     skins: [
       { id: "classic-default", name: "Default", image: "https://media.valorant-api.com/weapons/29a0cfab-485b-f5d5-779a-b59f85e204a8/displayicon.png", tier: "Select" },
-      { id: "classic-prime", name: "Prime Classic", image: "https://media.valorant-api.com/weaponskins/4c8863a9-4c76-7c1d-68b9-3298b28bf60a/displayicon.png", tier: "Premium" },
+      { id: "classic-prime", name: "Prime Classic", image: "https://media.valorant-api.com/weaponskinlevels/c7695ce7-4fc9-1c79-64b3-8c8f9e21571c/displayicon.png", tier: "Premium" },
       { id: "classic-recon", name: "Recon Classic", image: "https://media.valorant-api.com/weaponskins/02538c73-4ef5-3bbe-96bb-1091c5c67b76/displayicon.png", tier: "Select" },
-      { id: "classic-spectrum", name: "Spectrum Classic", image: "https://media.valorant-api.com/weaponskins/e0ed7c3a-413a-e993-d7ab-f2a6fd7e7db7/displayicon.png", tier: "Ultra" },
-      { id: "classic-glitchpop", name: "Glitchpop Classic", image: "https://media.valorant-api.com/weaponskins/8cca52be-42ed-18f4-0706-6aa6efc7a01e/displayicon.png", tier: "Premium" },
+      { id: "classic-spectrum", name: "Spectrum Classic", image: "https://media.valorant-api.com/weaponskinlevels/fe32e4bd-420f-b4cc-de37-febb78df9e16/displayicon.png", tier: "Ultra" },
+      { id: "classic-glitchpop", name: "Glitchpop Classic", image: "https://media.valorant-api.com/weaponskinlevels/25cb63cd-416e-ab23-2377-d18638679871/displayicon.png", tier: "Premium" },
     ],
   },
   {
@@ -47,7 +47,7 @@ export const weapons: Weapon[] = [
     image: "https://media.valorant-api.com/weapons/42da8ccc-40d5-affc-beec-15aa47b42eda/displayicon.png",
     skins: [
       { id: "shorty-default", name: "Default", image: "https://media.valorant-api.com/weapons/42da8ccc-40d5-affc-beec-15aa47b42eda/displayicon.png", tier: "Select" },
-      { id: "shorty-aerosol", name: "Aerosol Shorty", image: "https://media.valorant-api.com/weaponskinlevels/59e74f99-4e15-fe96-4b14-8793fd6a8553/displayicon.png", tier: "Deluxe" },
+      { id: "shorty-aerosol", name: "Aerosol Shorty", image: "https://media.valorant-api.com/weaponskinlevels/1db941af-4587-c6a4-5885-dbb77fefcb32/displayicon.png", tier: "Deluxe" },
     ],
   },
   {
@@ -61,8 +61,8 @@ export const weapons: Weapon[] = [
     image: "https://media.valorant-api.com/weapons/44d4e95c-4157-0037-81b2-17841bf2e8e3/displayicon.png",
     skins: [
       { id: "frenzy-default", name: "Default", image: "https://media.valorant-api.com/weapons/44d4e95c-4157-0037-81b2-17841bf2e8e3/displayicon.png", tier: "Select" },
-      { id: "frenzy-prime", name: "Prime Frenzy", image: "https://media.valorant-api.com/weaponskinlevels/4f41e8c6-4e03-dc4e-b1ff-8d9f569b83a5/displayicon.png", tier: "Premium" },
-      { id: "frenzy-rgx", name: "RGX 11z Pro Frenzy", image: "https://media.valorant-api.com/weaponskinlevels/8bf14ad3-437b-4f62-001c-cf8eb613e1bd/displayicon.png", tier: "Ultra" },
+      { id: "frenzy-prime", name: "Prime Frenzy", image: "https://media.valorant-api.com/weaponskinlevels/2607b2c6-45f7-e75e-94f8-58a738773d5c/displayicon.png", tier: "Premium" },
+      { id: "frenzy-rgx", name: "RGX 11z Pro Frenzy", image: "https://media.valorant-api.com/weaponskinlevels/6f2aefab-439d-140a-4dc6-87818e2d72cd/displayicon.png", tier: "Ultra" },
     ],
   },
   {
@@ -76,9 +76,9 @@ export const weapons: Weapon[] = [
     image: "https://media.valorant-api.com/weapons/1baa85b4-4c70-1284-64bb-6481dfc3bb4e/displayicon.png",
     skins: [
       { id: "ghost-default", name: "Default", image: "https://media.valorant-api.com/weapons/1baa85b4-4c70-1284-64bb-6481dfc3bb4e/displayicon.png", tier: "Select" },
-      { id: "ghost-sovereign", name: "Sovereign Ghost", image: "https://media.valorant-api.com/weaponskins/8af2eeab-485e-0199-f29c-ddb1dce7c6bf/displayicon.png", tier: "Premium" },
-      { id: "ghost-reaver", name: "Reaver Ghost", image: "https://media.valorant-api.com/weaponskins/2cab95f7-48ce-3a27-1e13-05bf92565588/displayicon.png", tier: "Premium" },
-      { id: "ghost-ruination", name: "Ruination Ghost", image: "https://media.valorant-api.com/weaponskins/b3d8c519-4f4e-e3ec-c9db-64b2dcb59f6e/displayicon.png", tier: "Premium" },
+      { id: "ghost-sovereign", name: "Sovereign Ghost", image: "https://media.valorant-api.com/weaponskinlevels/ed8a1109-4e48-f077-636b-e98dd332bfcc/displayicon.png", tier: "Premium" },
+      { id: "ghost-reaver", name: "Reaver Ghost", image: "https://media.valorant-api.com/weaponskinlevels/a6fe7710-4edc-5e23-223d-aeaef3d17866/displayicon.png", tier: "Premium" },
+      { id: "ghost-ruination", name: "Ruination Ghost", image: "https://media.valorant-api.com/weaponskinlevels/5e1f5465-40cd-2c0f-33ab-398c5367d080/displayicon.png", tier: "Premium" },
       { id: "ghost-oni", name: "Oni Ghost", image: "https://media.valorant-api.com/weaponskins/21e43c5d-437a-3d10-b512-5abd79d12f9d/displayicon.png", tier: "Premium" },
     ],
   },
@@ -93,9 +93,9 @@ export const weapons: Weapon[] = [
     image: "https://media.valorant-api.com/weapons/e336c6b8-418d-9340-d77f-7a9e4cfe0702/displayicon.png",
     skins: [
       { id: "sheriff-default", name: "Default", image: "https://media.valorant-api.com/weapons/e336c6b8-418d-9340-d77f-7a9e4cfe0702/displayicon.png", tier: "Select" },
-      { id: "sheriff-ion", name: "Ion Sheriff", image: "https://media.valorant-api.com/weaponskinlevels/ca8d28df-4b9a-dd06-5d83-07959b71c5ab/displayicon.png", tier: "Premium" },
-      { id: "sheriff-elderflame", name: "Elderflame Sheriff", image: "https://media.valorant-api.com/weaponskinlevels/88433d90-4816-65e3-d8a4-ab9a0f8e2ced/displayicon.png", tier: "Ultra" },
-      { id: "sheriff-peacekeeper", name: "Peacekeeper Sheriff", image: "https://media.valorant-api.com/weaponskinlevels/15f8eb3c-4f8f-bb7a-caa3-a799faf3b56c/displayicon.png", tier: "Deluxe" },
+      { id: "sheriff-ion", name: "Ion Sheriff", image: "https://media.valorant-api.com/weaponskinlevels/2b555f97-46bb-5949-3531-979f5bc817f0/displayicon.png", tier: "Premium" },
+      { id: "sheriff-elderflame", name: "Elderflame Sheriff", image: "https://media.valorant-api.com/weaponskinlevels/5c273d0e-47fa-bb8c-d914-728de95da30e/displayicon.png", tier: "Ultra" },
+      { id: "sheriff-peacekeeper", name: "Peacekeeper Sheriff", image: "https://media.valorant-api.com/weaponskinlevels/ec570f46-4751-eeb6-7739-069bcbb8d05a/displayicon.png", tier: "Deluxe" },
     ],
   },
   // SMGs
@@ -124,9 +124,9 @@ export const weapons: Weapon[] = [
     image: "https://media.valorant-api.com/weapons/462080d1-4035-2937-7c09-27aa2a5c27a7/displayicon.png",
     skins: [
       { id: "spectre-default", name: "Default", image: "https://media.valorant-api.com/weapons/462080d1-4035-2937-7c09-27aa2a5c27a7/displayicon.png", tier: "Select" },
-      { id: "spectre-oni", name: "Oni Spectre", image: "https://media.valorant-api.com/weaponskinlevels/a7e08c5a-41c6-9e32-8c3a-ffb1c4d2da03/displayicon.png", tier: "Premium" },
-      { id: "spectre-singularity", name: "Singularity Spectre", image: "https://media.valorant-api.com/weaponskinlevels/06896a99-4a9f-2e00-aa2f-8c87dc498e45/displayicon.png", tier: "Ultra" },
-      { id: "spectre-minima", name: "Minima Spectre", image: "https://media.valorant-api.com/weaponskinlevels/2a739ff8-420d-0f82-0d84-5fb1c0888135/displayicon.png", tier: "Deluxe" },
+      { id: "spectre-oni", name: "Oni Spectre", image: "https://media.valorant-api.com/weaponskinlevels/c00e786e-4e6f-0ef7-0ce3-32ba9918ba41/displayicon.png", tier: "Premium" },
+      { id: "spectre-singularity", name: "Singularity Spectre", image: "https://media.valorant-api.com/weaponskinlevels/3b955119-421c-3319-50cc-1aaf06b42338/displayicon.png", tier: "Ultra" },
+      { id: "spectre-minima", name: "Minima Spectre", image: "https://media.valorant-api.com/weaponskinlevels/1fdbe6f8-42ca-deb2-33da-caa2c4200544/displayicon.png", tier: "Deluxe" },
     ],
   },
   // SHOTGUNS
@@ -141,7 +141,7 @@ export const weapons: Weapon[] = [
     image: "https://media.valorant-api.com/weapons/910be174-449b-c412-ab22-d0873436b21b/displayicon.png",
     skins: [
       { id: "bucky-default", name: "Default", image: "https://media.valorant-api.com/weapons/910be174-449b-c412-ab22-d0873436b21b/displayicon.png", tier: "Select" },
-      { id: "bucky-kingdom", name: "Kingdom Bucky", image: "https://media.valorant-api.com/weaponskinlevels/6070eead-48cd-6e71-fa97-bf9e3e78821a/displayicon.png", tier: "Select" },
+      { id: "bucky-kingdom", name: "Kingdom Bucky", image: "https://media.valorant-api.com/weaponskinlevels/4caa7fb0-4751-52f3-6eed-6ab6232be131/displayicon.png", tier: "Select" },
     ],
   },
   {
@@ -155,7 +155,7 @@ export const weapons: Weapon[] = [
     image: "https://media.valorant-api.com/weapons/ec845bf4-4f79-ddda-a3da-0db3774b2794/displayicon.png",
     skins: [
       { id: "judge-default", name: "Default", image: "https://media.valorant-api.com/weapons/ec845bf4-4f79-ddda-a3da-0db3774b2794/displayicon.png", tier: "Select" },
-      { id: "judge-spectrum", name: "Spectrum Judge", image: "https://media.valorant-api.com/weaponskinlevels/ae1973a5-41c9-4dcf-2aab-ad9bdc60b004/displayicon.png", tier: "Ultra" },
+      { id: "judge-spectrum", name: "Spectrum Judge", image: "https://media.valorant-api.com/weaponskinlevels/43854c54-4263-571c-9be6-52b6d50d3190/displayicon.png", tier: "Ultra" },
     ],
   },
   // RIFLES
@@ -184,8 +184,8 @@ export const weapons: Weapon[] = [
     image: "https://media.valorant-api.com/weapons/4ade7faa-4cf1-8376-95ef-39884480959b/displayicon.png",
     skins: [
       { id: "guardian-default", name: "Default", image: "https://media.valorant-api.com/weapons/4ade7faa-4cf1-8376-95ef-39884480959b/displayicon.png", tier: "Select" },
-      { id: "guardian-reaver", name: "Reaver Guardian", image: "https://media.valorant-api.com/weaponskinlevels/75e648ab-4723-c16e-8a48-35b9d9f6f0f0/displayicon.png", tier: "Premium" },
-      { id: "guardian-ion", name: "Ion Guardian", image: "https://media.valorant-api.com/weaponskinlevels/c96bc79b-4d42-0db1-3f31-e59e0afe0c15/displayicon.png", tier: "Premium" },
+      { id: "guardian-reaver", name: "Reaver Guardian", image: "https://media.valorant-api.com/weaponskinlevels/c9f0ea7f-4bed-b10e-62d2-0394444feed1/displayicon.png", tier: "Premium" },
+      { id: "guardian-ion", name: "Ion Guardian", image: "https://media.valorant-api.com/weaponskinlevels/8af83962-4e2f-f58e-588e-ef85e4882b79/displayicon.png", tier: "Premium" },
     ],
   },
   {
@@ -199,13 +199,13 @@ export const weapons: Weapon[] = [
     image: "https://media.valorant-api.com/weapons/ee8e8d15-496b-07ac-e5f6-8fae5d4c7b1a/displayicon.png",
     skins: [
       { id: "phantom-default", name: "Default", image: "https://media.valorant-api.com/weapons/ee8e8d15-496b-07ac-e5f6-8fae5d4c7b1a/displayicon.png", tier: "Select" },
-      { id: "phantom-oni", name: "Oni Phantom", image: "https://media.valorant-api.com/weaponskins/fa0b37dc-4f93-6dd8-7e14-108aef5c2d1f/displayicon.png", tier: "Premium" },
-      { id: "phantom-prime", name: "Prime Phantom", image: "https://media.valorant-api.com/weaponskins/0e273994-44d7-9cec-79ca-da9bae30959f/displayicon.png", tier: "Premium" },
-      { id: "phantom-spectrum", name: "Spectrum Phantom", image: "https://media.valorant-api.com/weaponskins/b8118c0f-441c-0fa1-4b41-c990b8d38e16/displayicon.png", tier: "Ultra" },
-      { id: "phantom-protocol", name: "Protocol 781-A Phantom", image: "https://media.valorant-api.com/weaponskins/50543ec3-4b98-da30-1e16-8c9a91dbf1c9/displayicon.png", tier: "Ultra" },
-      { id: "phantom-ion", name: "Ion Phantom", image: "https://media.valorant-api.com/weaponskins/efe47ed6-4e04-e91a-d5d6-adb13d52ca7a/displayicon.png", tier: "Premium" },
-      { id: "phantom-reaver", name: "Reaver Phantom", image: "https://media.valorant-api.com/weaponskins/6c1b4a7f-4fed-2e22-ccbe-cb82e91e97fb/displayicon.png", tier: "Premium" },
-      { id: "phantom-glitchpop", name: "Glitchpop Phantom", image: "https://media.valorant-api.com/weaponskins/30e2a955-45ec-1d91-4b8f-6b9a55dee8cd/displayicon.png", tier: "Premium" },
+      { id: "phantom-oni", name: "Oni Phantom", image: "https://media.valorant-api.com/weaponskinlevels/c00e786e-4e6f-0ef7-0ce3-32ba9918ba41/displayicon.png", tier: "Premium" },
+      { id: "phantom-prime", name: "Prime Phantom", image: "https://media.valorant-api.com/weaponskinlevels/c9678d8c-4327-f397-b0ec-dca3c3d6fb15/displayicon.png", tier: "Premium" },
+      { id: "phantom-spectrum", name: "Spectrum Phantom", image: "https://media.valorant-api.com/weaponskinlevels/82db01d1-4192-167b-9f53-78ba374c39ac/displayicon.png", tier: "Ultra" },
+      { id: "phantom-protocol", name: "Protocol 781-A Phantom", image: "https://media.valorant-api.com/weaponskinlevels/a7cf8684-41a0-3dd4-e30c-6f9b4b34e635/displayicon.png", tier: "Ultra" },
+      { id: "phantom-ion", name: "Ion Phantom", image: "https://media.valorant-api.com/weaponskinlevels/b8bb264c-4578-2410-8dfa-6aacfeb318b0/displayicon.png", tier: "Premium" },
+      { id: "phantom-reaver", name: "Reaver Phantom", image: "https://media.valorant-api.com/weaponskinlevels/4c18d802-409d-ec20-f630-d3abfcaa37c7/displayicon.png", tier: "Premium" },
+      { id: "phantom-glitchpop", name: "Glitchpop Phantom", image: "https://media.valorant-api.com/weaponskinlevels/9f6e4612-433b-aea9-1683-3db7aee90848/displayicon.png", tier: "Premium" },
     ],
   },
   {
@@ -219,13 +219,13 @@ export const weapons: Weapon[] = [
     image: "https://media.valorant-api.com/weapons/9c82e19d-4575-0200-1a81-3eacf00cf872/displayicon.png",
     skins: [
       { id: "vandal-default", name: "Default", image: "https://media.valorant-api.com/weapons/9c82e19d-4575-0200-1a81-3eacf00cf872/displayicon.png", tier: "Select" },
-      { id: "vandal-elderflame", name: "Elderflame Vandal", image: "https://media.valorant-api.com/weaponskins/c5c0951c-4e95-9304-6ab3-45b5ec13a5ef/displayicon.png", tier: "Ultra" },
-      { id: "vandal-prime", name: "Prime Vandal", image: "https://media.valorant-api.com/weaponskins/aa0f04fb-4e15-8de2-6a6c-1388e8f4d3b1/displayicon.png", tier: "Premium" },
-      { id: "vandal-reaver", name: "Reaver Vandal", image: "https://media.valorant-api.com/weaponskins/e8d8d570-473a-1da2-c11c-e2a08d54dbd5/displayicon.png", tier: "Premium" },
-      { id: "vandal-rgx", name: "RGX 11z Pro Vandal", image: "https://media.valorant-api.com/weaponskins/0e99ff0f-4ed6-d47e-3223-c89cdf5b1eaf/displayicon.png", tier: "Ultra" },
-      { id: "vandal-champions", name: "Champions 2021 Vandal", image: "https://media.valorant-api.com/weaponskins/8a5f7079-4ebd-0cec-1e86-eca067578595/displayicon.png", tier: "Exclusive" },
-      { id: "vandal-glitchpop", name: "Glitchpop Vandal", image: "https://media.valorant-api.com/weaponskins/abb2db62-4c1c-cfcb-14d7-2a8a6fbe3abc/displayicon.png", tier: "Premium" },
-      { id: "vandal-ion", name: "Ion Vandal", image: "https://media.valorant-api.com/weaponskins/01c72d05-4b2e-54d5-baac-bc9fcec11a1e/displayicon.png", tier: "Premium" },
+      { id: "vandal-elderflame", name: "Elderflame Vandal", image: "https://media.valorant-api.com/weaponskinlevels/b3d3ff38-4202-20d8-2f41-c783477e5636/displayicon.png", tier: "Ultra" },
+      { id: "vandal-prime", name: "Prime Vandal", image: "https://media.valorant-api.com/weaponskinlevels/c9678d8c-4327-f397-b0ec-dca3c3d6fb15/displayicon.png", tier: "Premium" },
+      { id: "vandal-reaver", name: "Reaver Vandal", image: "https://media.valorant-api.com/weaponskinlevels/ba42fe63-457a-78ce-4499-47950a698129/displayicon.png", tier: "Premium" },
+      { id: "vandal-rgx", name: "RGX 11z Pro Vandal", image: "https://media.valorant-api.com/weaponskinlevels/4e435234-49a2-1444-4640-908692c855b8/displayicon.png", tier: "Ultra" },
+      { id: "vandal-champions", name: "Champions 2021 Vandal", image: "https://media.valorant-api.com/weaponskinlevels/9f51da57-4623-415a-6313-f49588297d0e/displayicon.png", tier: "Exclusive" },
+      { id: "vandal-glitchpop", name: "Glitchpop Vandal", image: "https://media.valorant-api.com/weaponskinlevels/7e44fc1b-44fa-cdda-8491-f8a5bca1cfa3/displayicon.png", tier: "Premium" },
+      { id: "vandal-ion", name: "Ion Vandal", image: "https://media.valorant-api.com/weaponskinlevels/a8c10620-46a8-794e-be55-a0a13edb8d44/displayicon.png", tier: "Premium" },
     ],
   },
   // SNIPERS
@@ -240,7 +240,7 @@ export const weapons: Weapon[] = [
     image: "https://media.valorant-api.com/weapons/c4883e50-4494-202c-3ec3-6b8a9284f00b/displayicon.png",
     skins: [
       { id: "marshal-default", name: "Default", image: "https://media.valorant-api.com/weapons/c4883e50-4494-202c-3ec3-6b8a9284f00b/displayicon.png", tier: "Select" },
-      { id: "marshal-glitchpop", name: "Glitchpop Marshal", image: "https://media.valorant-api.com/weaponskinlevels/de5cb32f-4a5c-af5c-6ac2-75be2fb04bd0/displayicon.png", tier: "Premium" },
+      { id: "marshal-glitchpop", name: "Glitchpop Marshal", image: "https://media.valorant-api.com/weaponskinlevels/d92a6ee6-4073-8b7f-e944-f1a55606a28a/displayicon.png", tier: "Premium" },
       { id: "marshal-recon", name: "Recon Marshal", image: "https://media.valorant-api.com/weaponskinlevels/3a20aa7e-4d98-7b8a-2eb5-d3bba2a20b83/displayicon.png", tier: "Select" },
     ],
   },
@@ -252,9 +252,9 @@ export const weapons: Weapon[] = [
     fireRate: 0.75,
     magazineSize: 2,
     wallPenetration: "High",
-    image: "https://media.valorant-api.com/weapons/5f0aaf7a-4289-3998-d5ff-eb9a5cf7f5c7/displayicon.png",
+    image: "https://media.valorant-api.com/weapons/5f0aaf7a-4289-3998-d5ff-eb9a5cf7ef5c/displayicon.png",
     skins: [
-      { id: "outlaw-default", name: "Default", image: "https://media.valorant-api.com/weapons/5f0aaf7a-4289-3998-d5ff-eb9a5cf7f5c7/displayicon.png", tier: "Select" },
+      { id: "outlaw-default", name: "Default", image: "https://media.valorant-api.com/weapons/5f0aaf7a-4289-3998-d5ff-eb9a5cf7ef5c/displayicon.png", tier: "Select" },
     ],
   },
   {
@@ -268,11 +268,11 @@ export const weapons: Weapon[] = [
     image: "https://media.valorant-api.com/weapons/a03b24d3-4319-996d-0f8c-94bbfba1dfc7/displayicon.png",
     skins: [
       { id: "operator-default", name: "Default", image: "https://media.valorant-api.com/weapons/a03b24d3-4319-996d-0f8c-94bbfba1dfc7/displayicon.png", tier: "Select" },
-      { id: "operator-elderflame", name: "Elderflame Operator", image: "https://media.valorant-api.com/weaponskins/fec5d596-4c05-a1f9-fa8f-5cb4a1f9c47d/displayicon.png", tier: "Ultra" },
-      { id: "operator-ion", name: "Ion Operator", image: "https://media.valorant-api.com/weaponskins/1e89d00a-4b66-eec0-7ded-069b938ae595/displayicon.png", tier: "Premium" },
-      { id: "operator-glitchpop", name: "Glitchpop Operator", image: "https://media.valorant-api.com/weaponskins/e4e15d56-4bf8-e18f-e78f-c9901ff7eaf7/displayicon.png", tier: "Premium" },
-      { id: "operator-origin", name: "Origin Operator", image: "https://media.valorant-api.com/weaponskins/6ce45f7a-4e3a-fc3d-4c54-9dacffd5fc78/displayicon.png", tier: "Ultra" },
-      { id: "operator-reaver", name: "Reaver Operator", image: "https://media.valorant-api.com/weaponskins/3e04bef3-48c8-c6bd-ad79-b988f93c0b2d/displayicon.png", tier: "Premium" },
+      { id: "operator-elderflame", name: "Elderflame Operator", image: "https://media.valorant-api.com/weaponskinlevels/5c273d0e-47fa-bb8c-d914-728de95da30e/displayicon.png", tier: "Ultra" },
+      { id: "operator-ion", name: "Ion Operator", image: "https://media.valorant-api.com/weaponskinlevels/24c73c29-443c-2440-d6db-838086f2451a/displayicon.png", tier: "Premium" },
+      { id: "operator-glitchpop", name: "Glitchpop Operator", image: "https://media.valorant-api.com/weaponskinlevels/d92a6ee6-4073-8b7f-e944-f1a55606a28a/displayicon.png", tier: "Premium" },
+      { id: "operator-origin", name: "Origin Operator", image: "https://media.valorant-api.com/weaponskinlevels/4d19c241-4350-6658-f5a6-5c99ca8e5e99/displayicon.png", tier: "Ultra" },
+      { id: "operator-reaver", name: "Reaver Operator", image: "https://media.valorant-api.com/weaponskinlevels/7bfab387-4e97-d815-4488-c491e3a5520c/displayicon.png", tier: "Premium" },
       { id: "operator-singularity", name: "Singularity Operator", image: "https://media.valorant-api.com/weaponskins/cc26bb8f-4b16-2afe-25d9-09abe31dc6b6/displayicon.png", tier: "Ultra" },
     ],
   },
@@ -288,7 +288,7 @@ export const weapons: Weapon[] = [
     image: "https://media.valorant-api.com/weapons/55d8a0f4-4274-ca67-fe2c-06ab45efdf58/displayicon.png",
     skins: [
       { id: "ares-default", name: "Default", image: "https://media.valorant-api.com/weapons/55d8a0f4-4274-ca67-fe2c-06ab45efdf58/displayicon.png", tier: "Select" },
-      { id: "ares-forsaken", name: "Forsaken Ares", image: "https://media.valorant-api.com/weaponskinlevels/e21cdad7-43cc-2c27-6a52-3aaeb68c6c63/displayicon.png", tier: "Premium" },
+      { id: "ares-forsaken", name: "Forsaken Ares", image: "https://media.valorant-api.com/weaponskinlevels/daa73753-4b56-9d21-d73e-f3b3f4c9b1a6/displayicon.png", tier: "Premium" },
     ],
   },
   {
@@ -302,7 +302,7 @@ export const weapons: Weapon[] = [
     image: "https://media.valorant-api.com/weapons/63e6c2b6-4a8e-869c-3d4c-e38355226584/displayicon.png",
     skins: [
       { id: "odin-default", name: "Default", image: "https://media.valorant-api.com/weapons/63e6c2b6-4a8e-869c-3d4c-e38355226584/displayicon.png", tier: "Select" },
-      { id: "odin-origin", name: "Origin Odin", image: "https://media.valorant-api.com/weaponskinlevels/c8f70ddd-4831-4cc6-ef6c-1698c6f87b8c/displayicon.png", tier: "Ultra" },
+      { id: "odin-origin", name: "Origin Odin", image: "https://media.valorant-api.com/weaponskinlevels/c96d991e-4807-5eee-0289-90b82f9be205/displayicon.png", tier: "Ultra" },
     ],
   },
   // MELEE
@@ -317,15 +317,15 @@ export const weapons: Weapon[] = [
     image: "https://media.valorant-api.com/weapons/2f59173c-4bed-b6c3-2191-dea9b58be9c7/displayicon.png",
     skins: [
       { id: "knife-default", name: "Default", image: "https://media.valorant-api.com/weapons/2f59173c-4bed-b6c3-2191-dea9b58be9c7/displayicon.png", tier: "Select" },
-      { id: "knife-elderflame", name: "Elderflame Dagger", image: "https://media.valorant-api.com/weaponskins/8c396fec-4aab-9434-c4c5-e9b2c9b1e3a9/displayicon.png", tier: "Ultra" },
-      { id: "knife-prime", name: "Prime Axe", image: "https://media.valorant-api.com/weaponskins/d33d690e-44f2-0c1f-8e19-afb55ec9d99d/displayicon.png", tier: "Premium" },
-      { id: "knife-reaver", name: "Reaver Karambit", image: "https://media.valorant-api.com/weaponskins/de43d4dd-4b9e-fa5c-db76-f5ae1d5cb8e8/displayicon.png", tier: "Premium" },
-      { id: "knife-rgx", name: "RGX 11z Pro Blade", image: "https://media.valorant-api.com/weaponskins/65f8b8c4-4ebd-8c07-ff5c-70a4e18d3f02/displayicon.png", tier: "Ultra" },
-      { id: "knife-champions", name: "Champions 2022 Butterfly Knife", image: "https://media.valorant-api.com/weaponskins/4c7da88b-47d1-f568-f2e5-d994af75e392/displayicon.png", tier: "Exclusive" },
-      { id: "knife-oni", name: "Oni Claw", image: "https://media.valorant-api.com/weaponskins/23d9b08a-4eb0-05f6-d80f-8db9faaf6557/displayicon.png", tier: "Premium" },
-      { id: "knife-ion", name: "Ion Energy Sword", image: "https://media.valorant-api.com/weaponskins/a7dcdf69-4e1e-3bec-8e3f-1db8a17a4b96/displayicon.png", tier: "Premium" },
-      { id: "knife-glitchpop", name: "Glitchpop Dagger", image: "https://media.valorant-api.com/weaponskins/b3e9f5d8-45cd-de86-1c4f-3abe3f54cef5/displayicon.png", tier: "Premium" },
-      { id: "knife-singularity", name: "Singularity Knife", image: "https://media.valorant-api.com/weaponskins/74de7f04-4a8a-c34e-1a37-d89aba9f92b4/displayicon.png", tier: "Ultra" },
+      { id: "knife-elderflame", name: "Elderflame Dagger", image: "https://media.valorant-api.com/weaponskinlevels/f3594bcc-43a9-4a74-8c40-98a4e4a4569a/displayicon.png", tier: "Ultra" },
+      { id: "knife-prime", name: "Prime Axe", image: "https://media.valorant-api.com/weaponskinlevels/249b0e46-4a11-f045-51bb-649151cd802a/displayicon.png", tier: "Premium" },
+      { id: "knife-reaver", name: "Reaver Karambit", image: "https://media.valorant-api.com/weaponskinlevels/5ac106cd-45ef-a26f-2058-f382f20c64db/displayicon.png", tier: "Premium" },
+      { id: "knife-rgx", name: "RGX 11z Pro Blade", image: "https://media.valorant-api.com/weaponskinlevels/a1762ed3-45bf-2dd5-776f-a18a33171e6f/displayicon.png", tier: "Ultra" },
+      { id: "knife-champions", name: "Champions 2022 Butterfly Knife", image: "https://media.valorant-api.com/weaponskinlevels/ba0abff4-41e4-4036-980d-90a55837b692/displayicon.png", tier: "Exclusive" },
+      { id: "knife-oni", name: "Oni Claw", image: "https://media.valorant-api.com/weaponskinlevels/e34039b6-441d-3e17-2773-bdaf5c3d2faa/displayicon.png", tier: "Premium" },
+      { id: "knife-ion", name: "Ion Energy Sword", image: "https://media.valorant-api.com/weaponskinlevels/21ceb4b1-480f-dddb-1422-8aad73519181/displayicon.png", tier: "Premium" },
+      { id: "knife-glitchpop", name: "Glitchpop Dagger", image: "https://media.valorant-api.com/weaponskinlevels/48ce4a70-4207-623b-4739-bfb937812432/displayicon.png", tier: "Premium" },
+      { id: "knife-singularity", name: "Singularity Knife", image: "https://media.valorant-api.com/weaponskinlevels/ea441610-42da-e46f-8d7b-1b9759c105cd/displayicon.png", tier: "Ultra" },
     ],
   },
 ];

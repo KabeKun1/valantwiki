@@ -26,14 +26,17 @@ export function SkinCard({ skin }: SkinCardProps) {
           <Image
             src={skin.image}
             alt={skin.name}
-            fill
-            className="object-contain p-4 transition-transform duration-300 group-hover:scale-110"
-            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+            width={140}
+            height={140}
+            className="h-full w-full object-contain p-4 transition-transform duration-300 group-hover:scale-110"
             onError={() => setImgError(true)}
+            loading="lazy"
           />
         ) : (
           <div className="flex h-full w-full items-center justify-center">
-            <span className="text-xs text-muted-foreground">Image unavailable</span>
+            <span className="text-xs text-muted-foreground">
+              Image unavailable
+            </span>
           </div>
         )}
       </div>

@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import { type Agent } from "@/lib/agents";
 import { MapPin, Quote } from "lucide-react";
 import Image from "next/image";
@@ -10,6 +11,8 @@ interface AgentCardProps {
 }
 
 export function AgentCard({ agent, onClick }: AgentCardProps) {
+  const [imgError, setImgError] = useState(false);
+
   return (
     <button
       onClick={onClick}
@@ -22,15 +25,28 @@ export function AgentCard({ agent, onClick }: AgentCardProps) {
         }}
       />
 
-      <div className="relative h-48 w-full overflow-hidden" style={{ backgroundColor: `${agent.color}15` }}>
-        <Image
-          src={agent.image}
-          alt={agent.name}
-          fill
-          className="object-contain object-center p-4 transition-transform duration-300 group-hover:scale-110"
-          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-card via-transparent to-transparent" />
+      <div
+        className="relative h-48 w-full overflow-hidden"
+        style={{ backgroundColor: `${agent.color}15` }}
+      >
+        {!imgError ? (
+          <Image
+            src={agent.image}
+            alt={agent.name}
+            width={200}
+            height={200}
+            className="h-full w-full object-contain object-center p-4 transition-transform duration-300 group-hover:scale-110"
+            onError={() => setImgError(true)}
+            loading="lazy"
+          />
+        ) : (
+          <div className="flex h-full w-full items-center justify-center">
+            <span className="text-xs text-muted-foreground">
+              Image unavailable
+            </span>
+          </div>
+        )}
+        <div className="absolute inset-0 bg-linear-to-t from-card via-transparent to-transparent" />
         <span
           className="absolute top-3 right-3 rounded-full px-3 py-1 text-xs font-medium"
           style={{ backgroundColor: `${agent.color}90`, color: "#fff" }}
@@ -55,7 +71,9 @@ export function AgentCard({ agent, onClick }: AgentCardProps) {
 
         <div className="flex items-start gap-2 rounded-md bg-secondary/50 p-3">
           <Quote className="h-4 w-4 shrink-0 text-primary" />
-          <p className="text-sm italic text-foreground line-clamp-1">&quot;{agent.quote}&quot;</p>
+          <p className="text-sm italic text-foreground line-clamp-1">
+            &quot;{agent.quote}&quot;
+          </p>
         </div>
       </div>
     </button>
